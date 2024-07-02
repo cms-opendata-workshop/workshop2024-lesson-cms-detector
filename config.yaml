@@ -15,17 +15,17 @@ carpentry: 'incubator'
 varnish: 'cms-opendata-workshop/varnish'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'The CMS Detector' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2024-07-29 # FIXME
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, CMS' # FIXME
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'beta' # FIXME
 
 # License of the lesson
 license: 'CC-BY 4.0'
@@ -63,16 +63,22 @@ contact: 'cms-dpoa-coordinator@cern.ch' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.md
+- 01-introduction.md
+- 02-tracker.md
+- 03-ecal.md
+- 04-hcal.md
+- 05-magnet.md
+- 06-muon.md
 
 # Information for Learners
-learners: 
+learners:
+- setup.md
 
 # Information for Instructors
 instructors: 
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #

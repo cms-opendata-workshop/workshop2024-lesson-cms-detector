@@ -2,8 +2,10 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
+![](/fig/CMSslice_whiteBackground.png){:width="75%"}
 
+## What is this lesson about?
 
-[workbench]: https://carpentries.github.io/sandpaper-docs
+Welcome. In this lesson you will learn about the CMS detector and how it works.
+
 
