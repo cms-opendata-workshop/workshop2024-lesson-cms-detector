@@ -25,7 +25,7 @@ The ECAL, made up of a “barrel” section and two “endcaps”, forms a layer
 
 Photodetectors, which have been especially designed to work within the high magnetic field, are glued onto the back of each of the crystals to detect the scintillation light and convert it to an electrical signal that is amplified and sent for analysis. Avalanche photodiodes or APDs are used in the the crystal barrel, and vacuum phototriodes (VPTs) for the endcaps.
 
-![](../fig/ECALcrystals_0.jpg){:width="75%"}
+![](../fig/ECALcrystals_0.jpg){width="75%"}
 
 *Above: Lead tungstate crystals. One can see an APD attached to the end of one of the crystals at the bottom of the image.*
 
