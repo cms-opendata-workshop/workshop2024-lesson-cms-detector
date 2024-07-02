@@ -46,25 +46,20 @@ Within the LHC, bunches of particles collide up to 40 million times per second, 
 *Above: A transverse slice of the CMS detector and the particles detected by each subdetector.*
 
 Below is an interactive 3D model of the CMS detector:
-<p>
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item"
-            src="https://cms3d.web.cern.ch/detector-embedded/"
-	    allowfullscreen>
-    </iframe>	
-  </div>
-</p>
+
+<div class="embed-responsive embed-responsive-16by9">
+ <iframe class="embed-responsive-item" src="https://cms3d.web.cern.ch/detector-embedded/" allowfullscreen>
+ </iframe>	
+</div>
   
 Move around the image below to see what CMS looks like in the experimental cavern:
-<p>
-  <div id="aframe">
-    <a-scene embedded>
-      <a-sky src="../fig/0pOgmYSEETO5_equirectangular_16384.jpg" rotation="0 -120 0">
-      </a-sky>
-    </a-scene>
-  </div>
-</p>
 
+<div id="aframe">
+ <a-scene embedded>
+  <a-sky src="../fig/0pOgmYSEETO5_equirectangular_16384.jpg" rotation="0 -120 0">
+  </a-sky>
+ </a-scene>
+</div>
 
 :::::::::::::: keypoints
 - The CMS detector is a large general-purpose detector at the LHC, CERN.
