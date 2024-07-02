@@ -2,7 +2,7 @@
 site: sandpaper::sandpaper_site
 ---
 
-![](/fig/CMSslice_whiteBackground.png){:width="75%"}
+![](/episodes/fig/CMSslice_whiteBackground.png){:width="75%"}
 
 ## What is this lesson about?
 
