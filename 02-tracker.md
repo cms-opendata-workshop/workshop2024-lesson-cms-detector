@@ -45,7 +45,7 @@ However, being so close to the collision means that the number of particles pass
 
 After the pixels and on their way out of the tracker, particles pass through ten layers of silicon strip detectors, reaching out to a radius of 130 centimetres.
 
-![](../fig/CMS_photo_3_courtesy_of_CERN.jpg){:width="75%"}
+![](../fig/CMS_photo_3_courtesy_of_CERN.jpg){width="75%"}
 
 *Above: Silicon strips in the tracker barrel.*
 

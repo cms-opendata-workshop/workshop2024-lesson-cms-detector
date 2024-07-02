@@ -5,9 +5,11 @@ exercises: 0
 ---
 
 :::::::::::::: questions
+
 - What is the CMS detector?
 - What are the design objectives of the CMS detector?
 - What are the main detector components of the CMS detector?
+
 ::::::::::::::
 
 :::::::::::::: objectives
@@ -19,7 +21,7 @@ exercises: 0
 The CMS experiment is 21 m long, 15 m wide and 15 m high, and sits in a cavern that could contain all the residents of Geneva; albeit not comfortably.
 The detector is like a giant filter, where each layer is designed to stop, track or measure a different type of particle emerging from proton-proton and heavy ion collisions. Finding the energy and momentum of a particle gives clues to its identity, and particular patterns of particles or “signatures” are indications of new and exciting physics
 
-![](../fig/cms_160312_02.png){:width="100%"}
+![](../fig/cms_160312_02.png){width="100%"}
 
 *Above: A schematic view of the CMS detector.*
 
@@ -39,7 +41,7 @@ As the name indicates, CMS is also designed to measure muons. The outer part of 
 
 Within the LHC, bunches of particles collide up to 40 million times per second, so a “trigger” system that saves only potentially interesting events is essential. This reduces the number recorded from one billion to around 100 per second.
 
-![](../fig/CMSslice_whiteBackground.png){:width="75%"}
+![](../fig/CMSslice_whiteBackground.png){width="75%"}
 
 *Above: A transverse slice of the CMS detector and the particles detected by each subdetector.*
 
