@@ -48,7 +48,7 @@ Within the LHC, bunches of particles collide up to 40 million times per second, 
 Below is an interactive 3D model of the CMS detector:
 
 <div class="embed-responsive embed-responsive-16by9">
- <iframe class="embed-responsive-item" src="https://cms3d.web.cern.ch/detector-embedded/" allowfullscreen  width=600>
+ <iframe class="embed-responsive-item" src="https://cms3d.web.cern.ch/detector-embedded/" allowfullscreen  width=600 height=300 >
  </iframe>	
 </div>
   
