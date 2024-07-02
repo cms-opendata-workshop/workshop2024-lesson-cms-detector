@@ -36,7 +36,7 @@ DTs and RPCs are arranged in concentric cylinders around the beam line (“the b
 
 ### Drift tubes
 
-![](../fig/oreach-2007-001_08.jpg){width="75%"} | ![](../fig/muon_event_dt.png){width="94%"}
+![](../fig/oreach-2007-001_08.jpg){width="48%"} | ![](../fig/muon_event_dt.png){width="48%"}
 
 *Above left: Installation of a wheel of drift tubes. Above right: event display of two muons seen in CMS with matching drift tubes.*
 
@@ -81,7 +81,7 @@ In addition to providing precise space and time information, the closely spaced 
 
 Resistive plate chambers (RPC) are fast gaseous detectors that provide a muon trigger system parallel with those of the DTs and CSCs.
 
-![](../fig/muons_0.png) | ![](../fig/muons_rpc_barrel.png) | ![](../fig/muons_rpc_endcaps.png)
+![](../fig/muons_0.png){width="32%"} | ![](../fig/muons_rpc_barrel.png){width="32%"} | ![](../fig/muons_rpc_endcaps.png){width="32%"}
 
 *Above: The positions of the RPCs in the barrel and endcaps highlighted in green*
 

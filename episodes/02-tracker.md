@@ -59,11 +59,11 @@ This part of the tracker contains 15,200 highly sensitive modules with a total o
 
 The silicon detectors work in much the same way as the pixels: as a charged particle crosses the material it knocks electrons from atoms giving a very small pulse of current lasting a few nanoseconds. This small amount of charge is then amplified by Analogue Pipeline Voltage (APV25) chips, giving us “hits” when a particle passes, allowing us to reconstruct its path. Four or six such chips are housed within a “hybrid”, which also contains electronics to monitor key sensor information, such as temperature, and provide timing information in order to match “hits” with collisions.
 
-![](../fig/tracker_rphi.png) | ![](../fig/tracker_rphi_tracks.png)
+![](../fig/tracker_rphi.png){width="48%"} | ![](../fig/tracker_rphi_tracks.png){width="48%"}
 
 *Above left: An event display view of the CMS tracker (contained within the ECAL barrel) looking along the beam pipe. Above right: An event display view of reconstructed tracks.*
 
-![](../fig/tracker_rz.png) | ![](../fig/tracker_rz_tracks.png)
+![](../fig/tracker_rz.png){width="48%"} | ![](../fig/tracker_rz_tracks.png){width="48%"}
 
 *Above left: A projected event display view of the CMS tracker (contained within the ECAL barrel and endcaps) looking perpendicular to the beam pipe. Above right: A projected event display view of reconstructed tracks.*
 
