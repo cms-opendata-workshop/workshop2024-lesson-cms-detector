@@ -33,7 +33,9 @@ Photodetectors, which have been especially designed to work within the high magn
 
 For extra spatial precision, the ECAL also contains a preshower detector that sits in front of the endcaps. These allow CMS to distinguish between single high-energy photons (often signs of exciting physics) and the less interesting close pairs of low-energy photons.
 
-![Left: An event display of two electron tracks (green lines). The ECAL barrel and endcaps are shown by the blue volumes and especially in the endcaps one can make out individual crystals. The green volumes respresent the energy deposits in the crystals. Right: A close up of the energy deposits in each crystal.](../fig/ecal_0.png){width="48%"} | ![](../fig/ecal_1.png){width="48%"}
+![](../fig/ecal_0.png){width="48%"} | ![](../fig/ecal_1.png){width="48%"}
+
+*Above left: An event display of two electron tracks (green lines). The ECAL barrel and endcaps are shown by the blue volumes and especially in the endcaps one can make out individual crystals. The green volumes respresent the energy deposits in the crystals. Right: A close up of the energy deposits in each crystal.*
 
 ::::::::::: keypoints
 
