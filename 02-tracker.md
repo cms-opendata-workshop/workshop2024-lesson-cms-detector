@@ -37,9 +37,7 @@ The pixel detector, though only about the size of a small suitcase, contains 124
 
 Each of the four layers is composed of individual silicon modules, splitted into little silicon sensors, like tiny kitchen tiles: the pixels.  Each of these silicon pixels is 100µm by 150µm, about two hairs widths. When a charged particle passes through a pixel, it gives enough energy to eject the electrons from silicon atoms. A voltage applied to the sensor allows collecting these charges as a small electric signal, which is amplified by an electronic readout chip (for a total of 16 chips per module).
 
-![](../fig/Pixelement.gif)
-
-*Above: A schematic of a pixel detector.*
+![A schematic of a pixel detector.](../fig/Pixelement.gif)
 
 Knowing which pixels have been touched allows us to deduce the particle's trajectory. And because the detector is made of 2D tiles and has four layers, we can create a three-dimensional picture.
 
@@ -49,27 +47,19 @@ However, being so close to the collision means that the number of particles pass
 
 After the pixels and on their way out of the tracker, particles pass through ten layers of silicon strip detectors, reaching out to a radius of 130 centimetres.
 
-![](../fig/CMS_photo_3_courtesy_of_CERN.jpg){width="75%"}
-
-*Above: Silicon strips in the tracker barrel.*
+![Silicon strips in the tracker barrel.](../fig/CMS_photo_3_courtesy_of_CERN.jpg){width="75%"}
 
 The silicon strip detector (see the figure below) consists of four inner barrel (TIB) layers assembled in shells with two inner endcaps (TID), each composed of three small discs. The outer barrel (TOB) – surrounding both the TIB and the TID – consists of six concentric layers. Finally two endcaps (TEC) close off the tracker on either end. Each has silicon modules optimised differently for its place within the detector.
 
-![](../fig/tracker_rz_labelled.png)
-
-*Above: A projected event display view of the CMS tracker (contained within the ECAL barrel and endcaps) looking perpendicular to the beam pipe.*
+![A projected event display view of the CMS tracker (contained within the ECAL barrel and endcaps) looking perpendicular to the beam pipe.](../fig/tracker_rz_labelled.png)
 
 This part of the tracker contains 15,200 highly sensitive modules with a total of about 10 million detector strips read by 72,000 microelectronic chips. Each module consists of three elements: one or two silicon sensors, its mechanical support structure and readout electronics.
 
 The silicon detectors work in much the same way as the pixels: as a charged particle crosses the material it knocks electrons from atoms giving a very small pulse of current lasting a few nanoseconds. This small amount of charge is then amplified by Analogue Pipeline Voltage (APV25) chips, giving us “hits” when a particle passes, allowing us to reconstruct its path. Four or six such chips are housed within a “hybrid”, which also contains electronics to monitor key sensor information, such as temperature, and provide timing information in order to match “hits” with collisions.
 
-![](../fig/tracker_rphi.png){width="48%"} | ![](../fig/tracker_rphi_tracks.png){width="48%"}
+![Left: An event display view of the CMS tracker (contained within the ECAL barrel) looking along the beam pipe. Right: An event display view of reconstructed tracks.](../fig/tracker_rphi.png){width="48%"} | ![](../fig/tracker_rphi_tracks.png){width="48%"}
 
-*Above left: An event display view of the CMS tracker (contained within the ECAL barrel) looking along the beam pipe. Above right: An event display view of reconstructed tracks.*
-
-![](../fig/tracker_rz.png){width="48%"} | ![](../fig/tracker_rz_tracks.png){width="48%"}
-
-*Above left: A projected event display view of the CMS tracker (contained within the ECAL barrel and endcaps) looking perpendicular to the beam pipe. Above right: A projected event display view of reconstructed tracks.*
+![Left: A projected event display view of the CMS tracker (contained within the ECAL barrel and endcaps) looking perpendicular to the beam pipe. Right: A projected event display view of reconstructed tracks.](../fig/tracker_rz.png){width="48%"} | ![](../fig/tracker_rz_tracks.png){width="48%"}
 
 
 :::::::::: keypoints

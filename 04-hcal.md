@@ -35,9 +35,7 @@ To accomplish this feat, the HCAL is organised into barrel (HB and HO), endcap (
 
 Lastly, the two hadronic forward calorimeters (HF) are positioned at either end of CMS, to pick up the myriad particles coming out of the collision region at shallow angles relative to the beam line. These receive the bulk of the particle energy contained in the collision so must be very resistant to radiation and use different materials to the other parts of the HCAL.
 
-![](../fig/Figure_001.png)
-
-*Above: A schematic view of the HCAL detectors, looking "from the side", perpendicular to the beam pipe.*
+![A schematic view of the HCAL detectors, looking "from the side", perpendicular to the beam pipe.](../fig/Figure_001.png)
 
 The CMS barrel and endcap sampling calorimeters are made of repeating layers of dense absorber and tiles of plastic scintillator. When a hadronic particle hits a plate of absorber, in this case brass or steel, an interaction can occur producing numerous secondary particles. As these secondary particles flow through successive layers of absorber they too can interact and a cascade or “shower” of particles results.  As this shower develops, the particles pass through the alternating layers of active scintillation material causing them to emit blue-violet light. Within each tile tiny optical “wavelength-shifting fibres”, with a diameter of less than 1mm, absorb this light. These shift the blue-violet light into the green region of the spectrum, and clear optic cables then carry the green light away to readout boxes located at strategic locations within the HCAL volume.
 

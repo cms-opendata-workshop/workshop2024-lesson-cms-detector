@@ -28,6 +28,7 @@ The detector is like a giant filter, where each layer is designed to stop, track
 The detector is built around a huge solenoid magnet. This takes the form of a cylindrical coil of superconducting cable, cooled to -268.5oC, that generates a magnetic field of 4 Tesla, about 100,000 times that of the Earth.
 
 Detectors consist of layers of material that exploit the different properties of particles to catch and measure the energy and momentum of each one. CMS needed:
+
 * a high performance system to detect and measure muons,
 * a high resolution method to detect and measure electrons and photons (an electromagnetic calorimeter),
 * a high quality central tracking system to give accurate momentum measurements, and
@@ -41,9 +42,7 @@ As the name indicates, CMS is also designed to measure muons. The outer part of 
 
 Within the LHC, bunches of particles collide up to 40 million times per second, so a “trigger” system that saves only potentially interesting events is essential. This reduces the number recorded from one billion to around 100 per second.
 
-![](../fig/CMSslice_whiteBackground.png){width="75%"}
-
-*Above: A transverse slice of the CMS detector and the particles detected by each subdetector.*
+![A transverse slice of the CMS detector and the particles detected by each subdetector.](../fig/CMSslice_whiteBackground.png){width="75%"}
 
 Below is an interactive 3D model of the CMS detector:
 
