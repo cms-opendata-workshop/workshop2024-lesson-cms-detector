@@ -5,11 +5,15 @@ exercises: 0
 ---
 
 :::::::::::: questions
+
 - What are the muon detectors in CMS and how do they work?
+
 ::::::::::::
 
 :::::::::::: objectives
+
 - Learn about the muon detectors and how it works.
+
 ::::::::::::
 
 
@@ -96,5 +100,7 @@ When a muon passes through the chamber, electrons are knocked out of gas atoms. 
 
 
 :::::::::::: keypoints:
+
 - There are three main muon detector systems in CMS: the drift tubes, cathode strip chambers, and resistive plate chambers.
+
 ::::::::::::

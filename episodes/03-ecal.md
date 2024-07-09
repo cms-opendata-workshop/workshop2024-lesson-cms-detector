@@ -5,11 +5,15 @@ exercises: 0
 ---
 
 ::::::::::: questions
+
 - What is the ECAL?
+
 :::::::::::
 
 ::::::::::: objectives
+
 - Learn about the ECAL and how it works.
+
 :::::::::::
 
 
@@ -37,5 +41,7 @@ For extra spatial precision, the ECAL also contains a preshower detector that si
 
 
 ::::::::::: keypoints
+
 - The ECAL is designed to measure the energies of electrons and photons with great precision.
+
 :::::::::::

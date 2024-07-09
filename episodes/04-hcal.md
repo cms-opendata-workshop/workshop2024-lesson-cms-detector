@@ -5,11 +5,15 @@ exercises: 0
 ---
 
 :::::::::: questions
+
 - What is the HCAL?
+
 ::::::::::
 
 :::::::::: objectives
+
 - Learn about the HCAL and how it works.
+
 ::::::::::
 
 
@@ -41,6 +45,8 @@ A megatile is a layer of tiles whose sizes depend on their spatial location and 
 
 
 :::::::::: keypoints:
+
 - The HCAL measures the energy of “hadrons”, particles made of quarks and gluons (for example protons, neutrons, pions and kaons).
 - The HCAL is hermetic, made up of a barrel, endcaps, and forrward and outer detectors.
+
 ::::::::::
