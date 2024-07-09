@@ -38,7 +38,9 @@ DTs and RPCs are arranged in concentric cylinders around the beam line (“the b
 
 ### Drift tubes
 
-![Installation of a wheel of drift tubes.](../fig/oreach-2007-001_08.jpg){width="48%"} | ![Event display of two muons seen in CMS with matching drift tubes.](../fig/muon_event_dt.png){width="48%"}
+![](../fig/oreach-2007-001_08.jpg){width="48%"} | ![](../fig/muon_event_dt.png){width="48%"}
+
+*Above left: Installation of a wheel of drift tubes. Right: Event display of two muons seen in CMS with matching drift tubes.*
 
 The drift tube (DT) system measures muon positions in the barrel part of the detector. Each 4-cm-wide tube contains a stretched wire within a gas volume. When a muon or any charged particle passes through the volume it knocks electrons off the atoms of the gas. These follow the electric field ending up at the positively-charged wire.
 
@@ -71,7 +73,9 @@ In addition to providing precise space and time information, the closely spaced 
 
 Resistive plate chambers (RPC) are fast gaseous detectors that provide a muon trigger system parallel with those of the DTs and CSCs.
 
-![The positions of the RPCs in the barrel and endcaps highlighted in green](../fig/muons_0.png){width="32%"} | ![](../fig/muons_rpc_barrel.png){width="32%"} | ![](../fig/muons_rpc_endcaps.png){width="32%"}
+![](../fig/muons_0.png){width="32%"} | ![](../fig/muons_rpc_barrel.png){width="32%"} | ![](../fig/muons_rpc_endcaps.png){width="32%"}
+
+*Above: The positions of the RPCs in the barrel and endcaps highlighted in green.*
 
 RPCs consist of two parallel plates, a positively-charged anode and a negatively-charged cathode, both made of a very high resistivity plastic material and separated by a gas volume.
 
@@ -81,7 +85,7 @@ When a muon passes through the chamber, electrons are knocked out of gas atoms. 
 
 
 
-:::::::::::: keypoints:
+:::::::::::: keypoints
 
 - There are three main muon detector systems in CMS: the drift tubes, cathode strip chambers, and resistive plate chambers.
 
