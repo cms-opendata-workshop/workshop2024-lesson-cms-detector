@@ -357,7 +357,7 @@
         
 <section id="aio-01-introduction"><p>Content from <a href="01-introduction.html">Introduction</a></p>
 <hr>
-<p>Last updated on 2024-07-08 |
+<p>Last updated on 2024-07-09 |
 
         <a href="https://github.com/cms-opendata-workshop/workbench-template-md/edit/main/episodes/01-introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 5 minutes</p>
@@ -410,12 +410,16 @@ that generates a magnetic field of 4 Tesla, about 100,000 times that of
 the Earth.</p>
 <p>Detectors consist of layers of material that exploit the different
 properties of particles to catch and measure the energy and momentum of
-each one. CMS needed: * a high performance system to detect and measure
-muons, * a high resolution method to detect and measure electrons and
-photons (an electromagnetic calorimeter), * a high quality central
-tracking system to give accurate momentum measurements, and * a
-“hermetic” hadron calorimeter, designed to entirely surround the
-collision and prevent particles from escaping.</p>
+each one. CMS needed:</p>
+<ul>
+<li>a high performance system to detect and measure muons,</li>
+<li>a high resolution method to detect and measure electrons and photons
+(an electromagnetic calorimeter),</li>
+<li>a high quality central tracking system to give accurate momentum
+measurements, and</li>
+<li>a “hermetic” hadron calorimeter, designed to entirely surround the
+collision and prevent particles from escaping.</li>
+</ul>
 <p>Particles emerging from collisions first meet a tracker, made
 entirely of silicon, that charts their positions as they move through
 the detector, allowing us to measure their momentum. Outside the tracker
@@ -441,9 +445,9 @@ undetected, although their presence can be indirectly inferred from the
 per second, so a “trigger” system that saves only potentially
 interesting events is essential. This reduces the number recorded from
 one billion to around 100 per second.</p>
-<figure><img src="../fig/CMSslice_whiteBackground.png" style="width:75.0%" class="figure mx-auto d-block"></figure><p><em>Above: A transverse slice of the CMS detector and the particles
-detected by each subdetector.</em></p>
-<p>Below is an interactive 3D model of the CMS detector:</p>
+<figure><img src="../fig/CMSslice_whiteBackground.png" style="width:75.0%" alt="A transverse slice of the CMS detector and the particles detected by each subdetector." class="figure mx-auto d-block"><div class="figcaption">A transverse slice of the CMS detector and the
+particles detected by each subdetector.</div>
+</figure><p>Below is an interactive 3D model of the CMS detector:</p>
 <div class="embed-responsive embed-responsive-16by9">
 <p><iframe class="embed-responsive-item" src="https://cms3d.web.cern.ch/detector-embedded/" allowfullscreen width="560" height="315">
 </iframe></p>
@@ -556,8 +560,8 @@ energy to eject the electrons from silicon atoms. A voltage applied to
 the sensor allows collecting these charges as a small electric signal,
 which is amplified by an electronic readout chip (for a total of 16
 chips per module).</p>
-<figure><img src="../fig/Pixelement.gif" class="figure mx-auto d-block"></figure><p><em>Above: A schematic of a pixel detector.</em></p>
-<p>Knowing which pixels have been touched allows us to deduce the
+<figure><img src="../fig/Pixelement.gif" alt="A schematic of a pixel detector." class="figure mx-auto d-block"><div class="figcaption">A schematic of a pixel detector.</div>
+</figure><p>Knowing which pixels have been touched allows us to deduce the
 particle’s trajectory. And because the detector is made of 2D tiles and
 has four layers, we can create a three-dimensional picture.</p>
 <p>However, being so close to the collision means that the number of
@@ -573,18 +577,18 @@ over the duration of the experiment.</p>
 <p>After the pixels and on their way out of the tracker, particles pass
 through ten layers of silicon strip detectors, reaching out to a radius
 of 130 centimetres.</p>
-<figure><img src="../fig/CMS_photo_3_courtesy_of_CERN.jpg" style="width:75.0%" class="figure mx-auto d-block"></figure><p><em>Above: Silicon strips in the tracker barrel.</em></p>
-<p>The silicon strip detector (see the figure below) consists of four
+<figure><img src="../fig/CMS_photo_3_courtesy_of_CERN.jpg" style="width:75.0%" alt="Silicon strips in the tracker barrel." class="figure mx-auto d-block"><div class="figcaption">Silicon strips in the tracker barrel.</div>
+</figure><p>The silicon strip detector (see the figure below) consists of four
 inner barrel (TIB) layers assembled in shells with two inner endcaps
 (TID), each composed of three small discs. The outer barrel (TOB) –
 surrounding both the TIB and the TID – consists of six concentric
 layers. Finally two endcaps (TEC) close off the tracker on either end.
 Each has silicon modules optimised differently for its place within the
 detector.</p>
-<figure><img src="../fig/tracker_rz_labelled.png" class="figure mx-auto d-block"></figure><p><em>Above: A projected event display view of the CMS tracker
-(contained within the ECAL barrel and endcaps) looking perpendicular to
-the beam pipe.</em></p>
-<p>This part of the tracker contains 15,200 highly sensitive modules
+<figure><img src="../fig/tracker_rz_labelled.png" alt="A projected event display view of the CMS tracker (contained within the ECAL barrel and endcaps) looking perpendicular to the beam pipe." class="figure mx-auto d-block"><div class="figcaption">A projected event display view of the CMS
+tracker (contained within the ECAL barrel and endcaps) looking
+perpendicular to the beam pipe.</div>
+</figure><p>This part of the tracker contains 15,200 highly sensitive modules
 with a total of about 10 million detector strips read by 72,000
 microelectronic chips. Each module consists of three elements: one or
 two silicon sensors, its mechanical support structure and readout
@@ -598,15 +602,10 @@ reconstruct its path. Four or six such chips are housed within a
 “hybrid”, which also contains electronics to monitor key sensor
 information, such as temperature, and provide timing information in
 order to match “hits” with collisions.</p>
-<p><img src="../fig/tracker_rphi.png" style="width:48.0%" class="figure"> | <img src="../fig/tracker_rphi_tracks.png" style="width:48.0%" class="figure"></p>
-<p><em>Above left: An event display view of the CMS tracker (contained
-within the ECAL barrel) looking along the beam pipe. Above right: An
-event display view of reconstructed tracks.</em></p>
-<p><img src="../fig/tracker_rz.png" style="width:48.0%" class="figure"> | <img src="../fig/tracker_rz_tracks.png" style="width:48.0%" class="figure"></p>
-<p><em>Above left: A projected event display view of the CMS tracker
-(contained within the ECAL barrel and endcaps) looking perpendicular to
-the beam pipe. Above right: A projected event display view of
-reconstructed tracks.</em></p>
+<p><img src="../fig/tracker_rphi.png" style="width:48.0%" alt="Left: An event display view of the CMS tracker (contained within the ECAL barrel) looking along the beam pipe. Right: An event display view of reconstructed tracks." class="figure">
+| <img src="../fig/tracker_rphi_tracks.png" style="width:48.0%" class="figure"></p>
+<p><img src="../fig/tracker_rz.png" style="width:48.0%" alt="Left: A projected event display view of the CMS tracker (contained within the ECAL barrel and endcaps) looking perpendicular to the beam pipe. Right: A projected event display view of reconstructed tracks." class="figure">
+| <img src="../fig/tracker_rz_tracks.png" style="width:48.0%" class="figure"></p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -691,18 +690,15 @@ to detect the scintillation light and convert it to an electrical signal
 that is amplified and sent for analysis. Avalanche photodiodes or APDs
 are used in the the crystal barrel, and vacuum phototriodes (VPTs) for
 the endcaps.</p>
-<figure><img src="../fig/ECALcrystals_0.jpg" style="width:75.0%" class="figure mx-auto d-block"></figure><p><em>Above: Lead tungstate crystals. One can see an APD attached to
-the end of one of the crystals at the bottom of the image.</em></p>
-<p>For extra spatial precision, the ECAL also contains a preshower
+<figure><img src="../fig/ECALcrystals_0.jpg" style="width:75.0%" alt="Lead tungstate crystals. One can see an APD attached to the end of one of the crystals at the bottom of the image." class="figure mx-auto d-block"><div class="figcaption">Lead tungstate crystals. One can see an APD
+attached to the end of one of the crystals at the bottom of the
+image.</div>
+</figure><p>For extra spatial precision, the ECAL also contains a preshower
 detector that sits in front of the endcaps. These allow CMS to
 distinguish between single high-energy photons (often signs of exciting
 physics) and the less interesting close pairs of low-energy photons.</p>
-<p><img src="../fig/ecal_0.png" style="width:48.0%" class="figure"> | <img src="../fig/ecal_1.png" style="width:48.0%" class="figure"></p>
-<p><em>Above left: An event display of two electron tracks (green
-lines). The ECAL barrel and endcaps are shown by the blue volumes and
-especially in the endcaps one can make out individual crystals. The
-green volumes respresent the energy deposits in the crystals. Above
-right: A close up of the energy deposits in each crystal.</em></p>
+<p><img src="../fig/ecal_0.png" style="width:48.0%" alt="Left: An event display of two electron tracks (green lines). The ECAL barrel and endcaps are shown by the blue volumes and especially in the endcaps one can make out individual crystals. The green volumes respresent the energy deposits in the crystals. Right: A close up of the energy deposits in each crystal." class="figure">
+| <img src="../fig/ecal_1.png" style="width:48.0%" class="figure"></p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -805,9 +801,9 @@ collision region at shallow angles relative to the beam line. These
 receive the bulk of the particle energy contained in the collision so
 must be very resistant to radiation and use different materials to the
 other parts of the HCAL.</p>
-<figure><img src="../fig/Figure_001.png" class="figure mx-auto d-block"></figure><p><em>Above: A schematic view of the HCAL detectors, looking “from the
-side”, perpendicular to the beam pipe.</em></p>
-<p>The CMS barrel and endcap sampling calorimeters are made of repeating
+<figure><img src="../fig/Figure_001.png" alt="A schematic view of the HCAL detectors, looking “from the side”, perpendicular to the beam pipe." class="figure mx-auto d-block"><div class="figcaption">A schematic view of the HCAL detectors, looking
+“from the side”, perpendicular to the beam pipe.</div>
+</figure><p>The CMS barrel and endcap sampling calorimeters are made of repeating
 layers of dense absorber and tiles of plastic scintillator. When a
 hadronic particle hits a plate of absorber, in this case brass or steel,
 an interaction can occur producing numerous secondary particles. As
@@ -999,16 +995,14 @@ background noise.</p>
 <p>DTs and RPCs are arranged in concentric cylinders around the beam
 line (“the barrel region”) whilst CSCs and RPCs, make up the “endcaps”
 disks that cover the ends of the barrel.</p>
-<figure><img src="../fig/MuStations.gif" class="figure mx-auto d-block"></figure><p><em>Above: A transverse slice of CMS slowing a muon passing through
-RPCs and DTs in the barrel.</em></p>
+<figure><img src="../fig/MuStations.gif" alt="A transverse slice of CMS slowing a muon passing through RPCs and DTs in the barrel." class="figure mx-auto d-block"><div class="figcaption">A transverse slice of CMS slowing a muon passing
+through RPCs and DTs in the barrel.</div>
+</figure>
 </div>
 <div class="section level3">
 <h3 id="drift-tubes">Drift tubes<a class="anchor" aria-label="anchor" href="#drift-tubes"></a>
 </h3>
-<p><img src="../fig/oreach-2007-001_08.jpg" style="width:48.0%" class="figure"> | <img src="../fig/muon_event_dt.png" style="width:48.0%" class="figure"></p>
-<p><em>Above left: Installation of a wheel of drift tubes. Above right:
-event display of two muons seen in CMS with matching drift
-tubes.</em></p>
+<p><img src="../fig/oreach-2007-001_08.jpg" style="width:48.0%" alt="Installation of a wheel of drift tubes." class="figure"> | <img src="../fig/muon_event_dt.png" style="width:48.0%" alt="Event display of two muons seen in CMS with matching drift tubes." class="figure"></p>
 <p>The drift tube (DT) system measures muon positions in the barrel part
 of the detector. Each 4-cm-wide tube contains a stretched wire within a
 gas volume. When a muon or any charged particle passes through the
@@ -1024,18 +1018,19 @@ aluminium layers, arranged in three groups of four, each up with up to
 60 tubes: the middle group measures the coordinate along the direction
 parallel to the beam and the two outside groups measure the
 perpendicular coordinate.</p>
-<figure><img src="../fig/muon_dt_rechits.png" style="width:75.0%" class="figure mx-auto d-block"></figure><p><em>Above: An event display of a muon seen in DTs. The green volumes
-indicate the position of the triggered wires.</em></p>
+<figure><img src="../fig/muon_dt_rechits.png" style="width:75.0%" alt="An event display of a muon seen in DTs. The green volumes indicate the position of the triggered wires." class="figure mx-auto d-block"><div class="figcaption">An event display of a muon seen in DTs. The
+green volumes indicate the position of the triggered wires.</div>
+</figure>
 </div>
 <div class="section level3">
 <h3 id="cathode-strip-chambers">Cathode Strip Chambers<a class="anchor" aria-label="anchor" href="#cathode-strip-chambers"></a>
 </h3>
 <p>Cathode strip chambers (CSC) are used in the endcap disks where the
 magnetic field is uneven and particle rates are high.</p>
-<figure><img src="../fig/oreach-2005-011.jpg" style="width:75.0%" class="figure mx-auto d-block"></figure><p><em>Above: Installed CSCs.</em></p>
-<figure><img src="../fig/muon_csc_event.png" style="width:75.0%" class="figure mx-auto d-block"></figure><p><em>Above: A double muon event seen in CMS with highlighted matching
-CSCs (in red).</em></p>
-<p>CSCs consist of arrays of positively-charged “anode” wires crossed
+<figure><img src="../fig/oreach-2005-011.jpg" style="width:75.0%" alt="Installed CSCs." class="figure mx-auto d-block"><div class="figcaption">Installed CSCs.</div>
+</figure><figure><img src="../fig/muon_csc_event.png" style="width:75.0%" alt="A double muon event seen in CMS with highlighted matching CSCs (in red)." class="figure mx-auto d-block"><div class="figcaption">A double muon event seen in CMS with highlighted
+matching CSCs (in red).</div>
+</figure><p>CSCs consist of arrays of positively-charged “anode” wires crossed
 with negatively-charged copper “cathode” strips within a gas volume.
 When muons pass through, they knock electrons off the gas atoms, which
 flock to the anode wires creating an avalanche of electrons. Positive
@@ -1048,26 +1043,26 @@ precise space and time information, the closely spaced wires make the
 CSCs fast detectors suitable for triggering. Each CSC module contains
 six layers making it able to accurately identify muons and match their
 tracks to those in the tracker.</p>
-<figure><img src="../fig/muon_csc_digis.png" style="width:75.0%" class="figure mx-auto d-block"></figure><p><em>Above: Event display of a muon seen in CSCs. The pink lines
-running along the long end of the chambers indicate the triggered strips
-and the shorter pink lines represent the triggered wires.</em></p>
+<figure><img src="../fig/muon_csc_digis.png" style="width:75.0%" alt="Event display of a muon seen in CSCs. The pink lines running along the long end of the chambers indicate the triggered strips and the shorter pink lines represent the triggered wires." class="figure mx-auto d-block"><div class="figcaption">Event display of a muon seen in CSCs. The pink
+lines running along the long end of the chambers indicate the triggered
+strips and the shorter pink lines represent the triggered wires.</div>
+</figure>
 </div>
 <div class="section level3">
 <h3 id="resistive-plate-chambers">Resistive Plate Chambers<a class="anchor" aria-label="anchor" href="#resistive-plate-chambers"></a>
 </h3>
-<figure><img src="../fig/oreach-2006-011.jpg" class="figure mx-auto d-block"></figure><p><em>Above: Resistive plate chambers installed on one of the CMS muon
-endcaps.</em></p>
-<p>Resistive plate chambers (RPC) are fast gaseous detectors that
+<figure><img src="../fig/oreach-2006-011.jpg" alt="Resistive plate chambers installed on one of the CMS muon endcaps." class="figure mx-auto d-block"><div class="figcaption">Resistive plate chambers installed on one of the
+CMS muon endcaps.</div>
+</figure><p>Resistive plate chambers (RPC) are fast gaseous detectors that
 provide a muon trigger system parallel with those of the DTs and
 CSCs.</p>
-<p><img src="../fig/muons_0.png" style="width:32.0%" class="figure"> | <img src="../fig/muons_rpc_barrel.png" style="width:32.0%" class="figure"> | <img src="../fig/muons_rpc_endcaps.png" style="width:32.0%" class="figure"></p>
-<p><em>Above: The positions of the RPCs in the barrel and endcaps
-highlighted in green</em></p>
+<p><img src="../fig/muons_0.png" style="width:32.0%" alt="The positions of the RPCs in the barrel and endcaps highlighted in green" class="figure">
+| <img src="../fig/muons_rpc_barrel.png" style="width:32.0%" class="figure"> | <img src="../fig/muons_rpc_endcaps.png" style="width:32.0%" class="figure"></p>
 <p>RPCs consist of two parallel plates, a positively-charged anode and a
 negatively-charged cathode, both made of a very high resistivity plastic
 material and separated by a gas volume.</p>
-<figure><img src="../fig/RPClayers.jpg" class="figure mx-auto d-block"></figure><p><em>Above: The layers of an RPC</em></p>
-<p>When a muon passes through the chamber, electrons are knocked out of
+<figure><img src="../fig/RPClayers.jpg" alt="The layers of an RPC" class="figure mx-auto d-block"><div class="figcaption">The layers of an RPC</div>
+</figure><p>When a muon passes through the chamber, electrons are knocked out of
 gas atoms. These electrons in turn hit other atoms causing an avalanche
 of electrons. The electrodes are transparent to the signal (the
 electrons), which are instead picked up by external metallic strips
